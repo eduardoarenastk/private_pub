@@ -4,6 +4,7 @@ require "net/https"
 
 require "private_pub/faye_extension"
 require "private_pub/engine" if defined? Rails
+require "erb"
 require "yaml"
 
 module PrivatePub
